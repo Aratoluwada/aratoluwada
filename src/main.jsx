@@ -1120,7 +1120,7 @@ const [projectMode, setProjectMode] = useState("software");
 
           </div>
 
-
+                
           <div className="project-media">
 
             <div className="media-header">
@@ -1819,7 +1819,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="about-stats">
 
                 <div>
-                  <b>Multiple</b>
+                  <b>∞</b>
                   <span>BUILDS</span>
                 </div>
 
