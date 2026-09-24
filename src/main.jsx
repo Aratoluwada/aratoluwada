@@ -1256,6 +1256,7 @@ const [projectMode, setProjectMode] = useState("software");
             </div>
 
           </div>
+          
 
 
           <div className="project-media">
