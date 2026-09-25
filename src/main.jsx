@@ -995,7 +995,7 @@ const [projectMode, setProjectMode] = useState("software");
 
               <div className="media-item media-main">
                 <img
-                  src="/public/assets/img-1.png"
+                  src="/assets/img-1.png"
                   alt="Royalty Hall homepage"
                 />
 
@@ -1007,7 +1007,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-2.png"
+                  src="/assets/img-2.png"
                   alt="Royalty Hall registration"
                 />
 
@@ -1020,7 +1020,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-3.png"
+                  src="/assets/img-3.png"
                   alt="Royalty Hall about page"
                 />
 
@@ -1133,7 +1133,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item media-main">
 
                 <img
-                  src="/public/assets/img-5.png"
+                  src="/assets/img-5.png"
                   alt="SIWES hero"
                 />
 
@@ -1146,7 +1146,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-7.png"
+                  src="/assets/img-7.png"
                   alt="Gallery"
                 />
 
@@ -1159,7 +1159,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-6.png"
+                  src="/assets/img-6.png"
                   alt="Overview"
                 />
 
@@ -1271,7 +1271,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item media-main">
 
                 <img
-                  src="/public/assets/img-4.png"
+                  src="/assets/img-4.png"
                   alt="LuxeCloset planner"
                 />
 
@@ -1515,7 +1515,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item media-main">
 
                 <img
-                  src="/public/assets/img-8.png"
+                  src="/assets/img-8.png"
                   alt="Gridwatch dashboard"
                 />
 
@@ -1529,7 +1529,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-10.jpg"
+                  src="/assets/img-10.jpg"
                   alt="Gridwatch telemetry"
                 />
 
@@ -1543,7 +1543,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-9.jpg"
+                  src="/assets/img-9.jpg"
                   alt="Gridwatch system"
                 />
 
@@ -1692,7 +1692,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item media-main">
 
                 <img
-                  src="/public/assets/img-11.jpg"
+                  src="/assets/img-11.jpg"
                   alt="IoT water dispenser prototype"
                 />
 
@@ -1706,7 +1706,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item">
 
                 <img
-                  src="/public/assets/img-12.jpg"
+                  src="/assets/img-12.jpg"
                   alt="IoT water dispenser prototype"
                 />
 
