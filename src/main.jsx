@@ -1038,14 +1038,14 @@ const [projectMode, setProjectMode] = useState("software");
 
       </article>
 
-          {/* SIWES WEBSITE           */}
+{/* SIwes Website */}
       <article className="project-card">
 
         <div className="project-card-top">
 
           <div className="project-object">
-            <span>SOFT_003</span>
-            <span>WEBSITE</span>
+            <span>SOFT_002</span>
+            <span>WEB APPLICATION</span>
           </div>
 
           <div className="project-status">
@@ -1069,9 +1069,8 @@ const [projectMode, setProjectMode] = useState("software");
             </h4>
 
             <p>
-              A website to view my SIWES highlights and 
-              download my technical 
-              report and presentation slides.
+              A website to view my SIWES highlights and download my 
+              technical report and presentation slides.
             </p>
 
 
@@ -1083,12 +1082,10 @@ const [projectMode, setProjectMode] = useState("software");
               </div>
 
               <div className="progress-track">
-
                 <div
                   className="progress-fill"
                   style={{ width: "100%" }}
                 ></div>
-
               </div>
 
             </div>
@@ -1102,25 +1099,37 @@ const [projectMode, setProjectMode] = useState("software");
 
               <div className="project-stack-list">
 
-                <span className="project-tech">
-                  JavaScript
-                </span>
-
-                <span className="project-tech">
-                  HTML
-                </span>
-
-                <span className="project-tech">
-                  CSS
-                </span>
+                {[
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                ].map((tech) => (
+                  <span
+                    className="project-tech"
+                    key={tech}
+                  >
+                    {tech}
+                  </span>
+                ))}
 
               </div>
 
             </div>
 
+
+            <a
+              href="https://aratoluwada-siwes.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="project-live-link"
+            >
+              OPEN LIVE SYSTEM
+              <FiArrowUpRight />
+            </a>
+
           </div>
 
-                
+
           <div className="project-media">
 
             <div className="media-header">
@@ -1177,7 +1186,7 @@ const [projectMode, setProjectMode] = useState("software");
 
       </article>
 
-
+   
       {/* LUXECLOSET */}
 
       <article className="project-card">
@@ -1185,7 +1194,7 @@ const [projectMode, setProjectMode] = useState("software");
         <div className="project-card-top">
 
           <div className="project-object">
-            <span>SOFT_002</span>
+            <span>SOFT_003</span>
             <span>PRODUCT / AI</span>
           </div>
 
