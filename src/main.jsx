@@ -996,7 +996,7 @@ const [projectMode, setProjectMode] = useState("software");
               <div className="media-item media-main">
                 <img
                   src="/assets/img-1.png"
-                  alt="Royalty Hall homepage"
+                  alt="Royalty Hall Schools website homepage designed and developed by Aratoluwada Toluwade"
                 />
 
                 <span className="media-index">
