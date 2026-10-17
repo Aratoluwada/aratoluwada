@@ -179,17 +179,17 @@ function TechIcon({ type, className = "" }) {
 ========================================================= */
 
 const stack = [
-  { name: "HTML5", group: "SOFTWARE", icon: (p) => <SiHtml5 aria-hidden="true" {...p} /> },
-  { name: "CSS3", group: "SOFTWARE", icon: (p) => <SiCss aria-hidden="true" {...p} /> },
-  { name: "JavaScript", group: "SOFTWARE", icon: (p) => <SiJavascript aria-hidden="true" {...p} /> },
-  { name: "Bootstrap", group: "SOFTWARE", icon: (p) => <SiBootstrap aria-hidden="true" {...p} /> },
-  { name: "React", group: "SOFTWARE", icon: (p) => <SiReact aria-hidden="true" {...p} /> },
-  { name: "Firebase", group: "SOFTWARE", icon: (p) => <SiFirebase aria-hidden="true" {...p} /> },
+  { name: "HTML5", group: "SOFTWARE", icon: (p) => <SiHtml5 color="#E34F26" aria-hidden="true" {...p} /> },
+  { name: "CSS3", group: "SOFTWARE", icon: (p) => <SiCss color="#1572B6" aria-hidden="true" {...p} /> },
+  { name: "JavaScript", group: "SOFTWARE", icon: (p) => <SiJavascript color="#F7DF1E" aria-hidden="true" {...p} /> },
+  { name: "Bootstrap", group: "SOFTWARE", icon: (p) => <SiBootstrap color="#7952B3" aria-hidden="true" {...p} /> },
+  { name: "React", group: "SOFTWARE", icon: (p) => <SiReact color="#61DAFB" aria-hidden="true" {...p} /> },
+  { name: "Firebase", group: "SOFTWARE", icon: (p) => <SiFirebase color="#FFCA28" aria-hidden="true" {...p} /> },
 
-  { name: "ESP32", group: "HARDWARE", icon: (p) => <SiEspressif aria-hidden="true" {...p} /> },
-  { name: "Arduino", group: "HARDWARE", icon: (p) => <SiArduino aria-hidden="true" {...p} /> },
-  { name: "C++", group: "HARDWARE", icon: (p) => <SiCplusplus aria-hidden="true" {...p} /> },
-  { name: "AutoCAD", group: "HARDWARE", icon: (p) => <SiAutocad aria-hidden="true" {...p} /> },
+  { name: "ESP32", group: "HARDWARE", icon: (p) => <SiEspressif color="#E7352C" aria-hidden="true" {...p} /> },
+  { name: "Arduino", group: "HARDWARE", icon: (p) => <SiArduino color="#00979D" aria-hidden="true" {...p} /> },
+  { name: "C++", group: "HARDWARE", icon: (p) => <SiCplusplus color="#659AD2" aria-hidden="true" {...p} /> },
+  { name: "AutoCAD", group: "HARDWARE", icon: (p) => <SiAutocad color="#E51050" aria-hidden="true" {...p} /> },
   { name: "SolidWorks", group: "HARDWARE", icon: (p) => <TechIcon type="solidworks" {...p} /> },
   { name: "Fritzing", group: "HARDWARE", icon: (p) => <TechIcon type="fritzing" {...p} /> },
 ];
