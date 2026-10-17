@@ -1,5 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
+import {
+  SiHtml5,
+  SiCss,
+  SiJavascript,
+  SiBootstrap,
+  SiReact,
+  SiFirebase,
+  SiEspressif,
+  SiArduino,
+  SiCplusplus,
+  SiAutocad,
+} from "react-icons/si";
 import "./styles.css";
 
 /* =========================================================
@@ -12,15 +24,6 @@ const Glyph = ({ children, className = "" }) => (
   </span>
 );
 
-const SiHtml5 = () => <Glyph>HTML</Glyph>;
-const FaCss3Alt = () => <Glyph>CSS</Glyph>;
-const SiJavascript = () => <Glyph>JS</Glyph>;
-const SiBootstrap = () => <Glyph>BS</Glyph>;
-const SiReact = () => <Glyph>⚛</Glyph>;
-const SiFirebase = () => <Glyph>FB</Glyph>;
-const SiEspressif = () => <Glyph>ESP</Glyph>;
-const SiArduino = () => <Glyph>ARD</Glyph>;
-const SiCplusplus = () => <Glyph>C++</Glyph>;
 const FiTool = () => <Glyph>CAD</Glyph>;
 const FiBox = () => <Glyph>SW</Glyph>;
 const FiCpu = () => <Glyph>CPU</Glyph>;
@@ -37,6 +40,8 @@ function TechIcon({ type, className = "" }) {
   const common = {
     className: `tech-svg ${className}`,
     viewBox: "0 0 64 64",
+    width: "1em",
+    height: "1em",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
     "aria-hidden": true,
@@ -174,19 +179,19 @@ function TechIcon({ type, className = "" }) {
 ========================================================= */
 
 const stack = [
-  { name: "HTML5", group: "SOFTWARE", icon: () => <TechIcon type="html" /> },
-  { name: "CSS3", group: "SOFTWARE", icon: () => <TechIcon type="css" /> },
-  { name: "JavaScript", group: "SOFTWARE", icon: () => <TechIcon type="javascript" /> },
-  { name: "Bootstrap", group: "SOFTWARE", icon: () => <TechIcon type="bootstrap" /> },
-  { name: "React", group: "SOFTWARE", icon: () => <TechIcon type="react" /> },
-  { name: "Firebase", group: "SOFTWARE", icon: () => <TechIcon type="firebase" /> },
+  { name: "HTML5", group: "SOFTWARE", icon: (p) => <SiHtml5 aria-hidden="true" {...p} /> },
+  { name: "CSS3", group: "SOFTWARE", icon: (p) => <SiCss aria-hidden="true" {...p} /> },
+  { name: "JavaScript", group: "SOFTWARE", icon: (p) => <SiJavascript aria-hidden="true" {...p} /> },
+  { name: "Bootstrap", group: "SOFTWARE", icon: (p) => <SiBootstrap aria-hidden="true" {...p} /> },
+  { name: "React", group: "SOFTWARE", icon: (p) => <SiReact aria-hidden="true" {...p} /> },
+  { name: "Firebase", group: "SOFTWARE", icon: (p) => <SiFirebase aria-hidden="true" {...p} /> },
 
-  { name: "ESP32", group: "HARDWARE", icon: () => <TechIcon type="esp32" /> },
-  { name: "Arduino", group: "HARDWARE", icon: () => <TechIcon type="arduino" /> },
-  { name: "C++", group: "HARDWARE", icon: () => <TechIcon type="cpp" /> },
-  { name: "AutoCAD", group: "HARDWARE", icon: () => <TechIcon type="autocad" /> },
-  { name: "SolidWorks", group: "HARDWARE", icon: () => <TechIcon type="solidworks" /> },
-  { name: "Fritzing", group: "HARDWARE", icon: () => <TechIcon type="fritzing" /> },
+  { name: "ESP32", group: "HARDWARE", icon: (p) => <SiEspressif aria-hidden="true" {...p} /> },
+  { name: "Arduino", group: "HARDWARE", icon: (p) => <SiArduino aria-hidden="true" {...p} /> },
+  { name: "C++", group: "HARDWARE", icon: (p) => <SiCplusplus aria-hidden="true" {...p} /> },
+  { name: "AutoCAD", group: "HARDWARE", icon: (p) => <SiAutocad aria-hidden="true" {...p} /> },
+  { name: "SolidWorks", group: "HARDWARE", icon: (p) => <TechIcon type="solidworks" {...p} /> },
+  { name: "Fritzing", group: "HARDWARE", icon: (p) => <TechIcon type="fritzing" {...p} /> },
 ];
 
 
