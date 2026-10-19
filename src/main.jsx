@@ -148,15 +148,6 @@ function TechIcon({ type, className = "" }) {
         </svg>
       );
 
-    case "fritzing":
-      return (
-        <svg {...common}>
-          <circle cx="32" cy="32" r="22" stroke="currentColor" strokeWidth="4" />
-          <circle cx="32" cy="32" r="7" fill="currentColor" />
-          <path d="M32 10v15M32 39v15M10 32h15M39 32h15" stroke="currentColor" strokeWidth="4" />
-        </svg>
-      );
-
     default:
       return (
         <svg {...common}>
@@ -182,8 +173,8 @@ const stack = [
   { name: "Arduino", group: "HARDWARE", icon: (p) => <SiArduino color="#00979D" aria-hidden="true" {...p} /> },
   { name: "C++", group: "HARDWARE", icon: (p) => <SiCplusplus color="#659AD2" aria-hidden="true" {...p} /> },
   { name: "AutoCAD", group: "HARDWARE", icon: (p) => <SiAutocad color="#E51050" aria-hidden="true" {...p} /> },
-  { name: "Onshape", group: "HARDWARE", icon: (p) => <TechIcon type="onshape" {...p} /> },
-  { name: "Fritzing", group: "HARDWARE", icon: (p) => <TechIcon type="fritzing" {...p} /> },
+  { name: "Onshape", group: "HARDWARE", icon: (p) => <img src="/assets/logo-onshape.png" alt="" aria-hidden="true" {...p} /> },
+  { name: "Fritzing", group: "HARDWARE", icon: (p) => <img src="/assets/logo-fritzing.png" alt="" aria-hidden="true" {...p} /> },
 ];
 
 
