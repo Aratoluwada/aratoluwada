@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#050607" />
+    <script>
+      // /safeclaim-demo (no trailing slash): if the host falls back to this page, show the demo page in place.
+      (function () {
+        if (!/^\/safeclaim-demo\/?$/.test(location.pathname)) return;
+        fetch("/safeclaim-demo.html").then(function (r) { return r.text(); }).then(function (h) {
+          if (h.indexOf("data-safeclaim-demo") < 0) return;
+          document.open(); document.write(h); document.close();
+        }).catch(function () {});
+      })();
+    </script>
     <meta name="description" content="Aratoluwada Toluwade — Front-End Developer and Mechatronics Engineering Student building software, hardware and IoT systems." />
     <title>Aratoluwada: Building systems</title>
     <script
