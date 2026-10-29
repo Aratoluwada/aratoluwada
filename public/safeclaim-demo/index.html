@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050607" />
+  <title>SafeClaim AI: Demo Video</title>
+  <meta name="description" content="Submission demo video for SafeClaim AI by Aratoluwada Toluwade." />
+  <meta property="og:title" content="SafeClaim AI: Demo Video" />
+  <meta property="og:description" content="Understand the claim. Verify the facts. Submission demo by Aratoluwada Toluwade." />
+  <meta property="og:image" content="https://aratoluwada.cv/safeclaim-demo/poster.jpg" />
+  <meta property="og:url" content="https://aratoluwada.cv/safeclaim-demo/" />
+  <style>
+    :root { --bg: #050607; --line: #1c2220; --text: #e9eeeb; --muted: #7d8783; --green: #b6ff00; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--text); }
+    body {
+      min-height: 100vh; display: flex; flex-direction: column;
+      font: 15px/1.6 ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    main { width: min(1040px, 100%); margin: 0 auto; padding: 56px 20px 40px; flex: 1; }
+    .eyebrow { color: var(--green); font-size: 11px; letter-spacing: .14em; margin: 0 0 14px; }
+    h1 { font: 700 clamp(30px, 6vw, 54px)/1.05 system-ui, -apple-system, "Segoe UI", sans-serif; margin: 0 0 12px; letter-spacing: -.02em; }
+    .sub { color: var(--muted); margin: 0 0 32px; max-width: 620px; }
+    .player { border: 1px solid var(--line); background: #090c0d; padding: 8px; }
+    video { display: block; width: 100%; height: auto; background: #000; aspect-ratio: 1280 / 678; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 18px; color: var(--muted); font-size: 12px; }
+    .meta b { color: var(--text); font-weight: 600; }
+    .actions { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 10px; }
+    a.btn {
+      color: var(--text); text-decoration: none; font-size: 12px; letter-spacing: .08em;
+      border: 1px solid var(--line); padding: 11px 16px; transition: .2s;
+    }
+    a.btn:hover, a.btn:focus-visible { border-color: var(--green); color: var(--green); outline: none; }
+    footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; padding: 18px 20px; text-align: center; }
+    footer a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">// SUBMISSION DEMO</p>
+    <h1>SafeClaim AI</h1>
+    <p class="sub">Understand the claim. Verify the facts.</p>
+
+    <div class="player">
+      <video controls playsinline preload="metadata" poster="poster.jpg">
+        <source src="demo.mp4" type="video/mp4" />
+        Your browser can't play this video.
+        <a href="demo.mp4">Download the demo video</a>.
+      </video>
+    </div>
+
+    <div class="meta">
+      <span><b>Built by</b> Aratoluwada Toluwade</span>
+      <span><b>Length</b> 0:50</span>
+    </div>
+
+    <div class="actions">
+      <a class="btn" href="demo.mp4" download>DOWNLOAD VIDEO</a>
+      <a class="btn" href="/">PORTFOLIO &rarr;</a>
+    </div>
+  </main>
+  <footer>&copy; Aratoluwada Toluwade &middot; <a href="https://aratoluwada.cv">aratoluwada.cv</a></footer>
+</body>
+</html>
